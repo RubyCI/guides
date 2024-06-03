@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Restart build</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@100..900&family=Lexend:wght@400;500&family=DM+Sans:ital,wght@0,400;0,500;1,500&display=swap"
+        />
+        <style>
+        :root{
+            font-size:16px
+        }
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            
+            padding:2rem;
+            font-family:'Dm Sans';
+            background:rgb(249 250 251);
+        }
+        .gj_hidden{
+          display:none
+        }
+        @media (min-width: 640px) {
+          .gj_sm_flex{
+            display:flex!important
+          }
+        }
+        .gj_link:hover{
+          opacity:.8
+        }
+        .gj_shadow{
+          box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+          -webkit-box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+          -moz-box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        }
+        .gj_flexcenter{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .gj_markdown{
+            white-space:pre-wrap;
+            overflow-wrap:anywhere;
+            overflow:hidden
+        }
+        @keyframes ping{
+          75%, 100% {
+            transform: scale(2);
+            opacity: 0;
+         }
+        }
+        </style>
+   </head>
+   <body>
+   <div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:75vw;margin-horizontal:auto;padding-top:3rem"><div style="display:flex;align-items:center;justify-content:center;width:100%;height:100%"><div class="gj_shadow gj_hidden gj_sm_flex" style="width:3rem;height:3rem;border-radius:100%;border:1px solid rgb(0,0,0,0.1);background-color:white;padding:0.5rem;flex-shrink:0;flex-grow:0;align-items:center;justify-content:center"><img src="https://www.guidejar.com/favicon.ico" alt="" style="width:1.5rem;object-fit:cover"/></div><div style="width:100%;margin-left:1rem"><h1 style="font-size:2.25rem;font-weight:bold;margin:0">Restart build</h1><span style="font-size:.85rem;margin-top:1rem;color:rgb(0,0,0,0.6)">Add as many steps as you want below to create a step by step guide. You can upload your own screenshots (or) videos to create a more engaging guide. Once you click on &#x27;Finish&#x27;, you&#x27;ll be able to view this guide as a scroll or as an interactive demo video.</span></div></div><div style="display:flex;flex-direction:column;width:100%;margin-top:3rem"><div class="gj_shadow" style="display:flex;flex-direction:column;justify-content:center;margin-top:30px;margin-bottom:30px;border:1px solid rgb(0,0,0,0.1);border-radius:6px;background:white"><div style="display:flex;flex-direction:row;column-gap:1rem;align-items:center;padding:1rem"><div style="display:flex;justify-content:center;align-items:center;border-radius:100%;width:2.5rem;height:2.5rem;flex-shrink:0;background-color:#9164f733"><b style="color:#9164f7;font-size:1rem">1</b></div><div class="gj_markdown"><p>First way is to click on build status from builds page</p></div></div><div style="position:relative;width:74.75vw;height:45.959363957597176vw;margin:auto;overflow:hidden;border-top:1px solid rgb(0,0,0,0.1)"><img src="https://assets.guidejar.com/uploads/V73B4jmSqQvZNMMa0hpX/cJtAPvkTQIdo3J7TNIM4mMlr4oD3/ae2caedf-6f8c-4b9d-9025-9a8b508b5ef8/1715085668761.jpeg" style="width:74.75vw;height:45.959363957597176vw;border-bottom-left-radius:5px;border-bottom-right-radius:5px;max-width:none;transform-origin:67.26037420511985vw 10.450251031464493vw;transform:scale(undefined)" alt="First way is to click on build status from builds page"/><div style="position:absolute;left:65.76037420511985vw;top:8.950251031464493vw;width:3vw;height:3vw;z-index:50;border-radius:100%;border:1.5px solid #9164f7;background-color:#9164f799"><div style="width:100%;height:100%;border-radius:100%;animation:ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;background-color:#9164f799"></div></div></div></div><div class="gj_shadow" style="display:flex;flex-direction:column;justify-content:center;margin-top:30px;margin-bottom:30px;border:1px solid rgb(0,0,0,0.1);border-radius:6px;background:white"><div style="display:flex;flex-direction:row;column-gap:1rem;align-items:center;padding:1rem"><div style="display:flex;justify-content:center;align-items:center;border-radius:100%;width:2.5rem;height:2.5rem;flex-shrink:0;background-color:#9164f733"><b style="color:#9164f7;font-size:1rem">2</b></div><div class="gj_markdown"><p>Click on &quot;<strong>Restart</strong>&quot;</p></div></div><div style="position:relative;width:74.75vw;height:37.7vw;margin:auto;overflow:hidden;border-top:1px solid rgb(0,0,0,0.1)"><img src="https://assets.guidejar.com/uploads/V73B4jmSqQvZNMMa0hpX/cJtAPvkTQIdo3J7TNIM4mMlr4oD3/0bfcbbdc-cfc7-40c4-be67-d0cd059b280b/1715085787693.jpeg" style="width:74.75vw;height:37.7vw;border-bottom-left-radius:5px;border-bottom-right-radius:5px;max-width:none;transform-origin:67.65039540192402vw 10.318286319908694vw;transform:scale(undefined)" alt="Click on &quot;**Restart**&quot;"/><div style="position:absolute;left:66.15039540192402vw;top:8.818286319908694vw;width:3vw;height:3vw;z-index:50;border-radius:100%;border:1.5px solid #9164f7;background-color:#9164f799"><div style="width:100%;height:100%;border-radius:100%;animation:ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;background-color:#9164f799"></div></div></div></div><div class="gj_shadow" style="display:flex;flex-direction:column;justify-content:center;margin-top:30px;margin-bottom:30px;border:1px solid rgb(0,0,0,0.1);border-radius:6px;background:white"><div style="display:flex;flex-direction:row;column-gap:1rem;align-items:center;padding:1rem"><div style="display:flex;justify-content:center;align-items:center;border-radius:100%;width:2.5rem;height:2.5rem;flex-shrink:0;background-color:#9164f733"><b style="color:#9164f7;font-size:1rem">3</b></div><div class="gj_markdown"><p>That&#x27;s it, your build will restart with cache.</p></div></div></div><div class="gj_shadow" style="display:flex;flex-direction:column;justify-content:center;margin-top:30px;margin-bottom:30px;border:1px solid rgb(0,0,0,0.1);border-radius:6px;background:white"><div style="display:flex;flex-direction:row;column-gap:1rem;align-items:center;padding:1rem"><div style="display:flex;justify-content:center;align-items:center;border-radius:100%;width:2.5rem;height:2.5rem;flex-shrink:0;background-color:#9164f733"><b style="color:#9164f7;font-size:1rem">4</b></div><div class="gj_markdown"><p>Second way is to click on desired build</p></div></div><div style="position:relative;width:74.75vw;height:45.959363957597176vw;margin:auto;overflow:hidden;border-top:1px solid rgb(0,0,0,0.1)"><img src="https://assets.guidejar.com/uploads/V73B4jmSqQvZNMMa0hpX/cJtAPvkTQIdo3J7TNIM4mMlr4oD3/b612a165-4d3b-47f3-b711-c8a2f8219510/1715086010454.jpeg" style="width:74.75vw;height:45.959363957597176vw;border-bottom-left-radius:5px;border-bottom-right-radius:5px;max-width:none;transform-origin:39.91013777922714vw 14.935494794712497vw;transform:scale(undefined)" alt="Second way is to click on desired build"/><div style="position:absolute;left:38.41013777922714vw;top:13.435494794712497vw;width:3vw;height:3vw;z-index:50;border-radius:100%;border:1.5px solid #9164f7;background-color:#9164f799"><div style="width:100%;height:100%;border-radius:100%;animation:ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;background-color:#9164f799"></div></div></div></div><div class="gj_shadow" style="display:flex;flex-direction:column;justify-content:center;margin-top:30px;margin-bottom:30px;border:1px solid rgb(0,0,0,0.1);border-radius:6px;background:white"><div style="display:flex;flex-direction:row;column-gap:1rem;align-items:center;padding:1rem"><div style="display:flex;justify-content:center;align-items:center;border-radius:100%;width:2.5rem;height:2.5rem;flex-shrink:0;background-color:#9164f733"><b style="color:#9164f7;font-size:1rem">5</b></div><div class="gj_markdown"><p>From the build details page click on &quot;<strong>Restart</strong>&quot;</p></div></div><div style="position:relative;width:74.75vw;height:37.7vw;margin:auto;overflow:hidden;border-top:1px solid rgb(0,0,0,0.1)"><img src="https://assets.guidejar.com/uploads/V73B4jmSqQvZNMMa0hpX/cJtAPvkTQIdo3J7TNIM4mMlr4oD3/4d6b605e-c7d6-4b82-ac8c-33cb1245fd7d/1715086132579.jpeg" style="width:74.75vw;height:37.7vw;border-bottom-left-radius:5px;border-bottom-right-radius:5px;max-width:none;transform-origin:69.89301728354802vw 4.126699820642429vw;transform:scale(undefined)" alt="From the build details page click on &quot;**Restart**&quot;"/><div style="position:absolute;left:68.39301728354802vw;top:2.626699820642429vw;width:3vw;height:3vw;z-index:50;border-radius:100%;border:1.5px solid #9164f7;background-color:#9164f799"><div style="width:100%;height:100%;border-radius:100%;animation:ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;background-color:#9164f799"></div></div></div></div><div class="gj_shadow" style="display:flex;flex-direction:column;justify-content:center;margin-top:30px;margin-bottom:30px;border:1px solid rgb(0,0,0,0.1);border-radius:6px;background:white"><div style="display:flex;flex-direction:row;column-gap:1rem;align-items:center;padding:1rem"><div style="display:flex;justify-content:center;align-items:center;border-radius:100%;width:2.5rem;height:2.5rem;flex-shrink:0;background-color:#9164f733"><b style="color:#9164f7;font-size:1rem">6</b></div><div class="gj_markdown"><p>Click on &quot;<strong>Run with cache</strong>&quot; or &quot;<strong>Run without cache</strong>&quot;</p></div></div><div style="position:relative;width:74.75vw;height:37.7vw;margin:auto;overflow:hidden;border-top:1px solid rgb(0,0,0,0.1)"><img src="https://assets.guidejar.com/uploads/V73B4jmSqQvZNMMa0hpX/cJtAPvkTQIdo3J7TNIM4mMlr4oD3/067208d6-b001-4c9e-993d-09e550920100/1715086300015.jpeg" style="width:74.75vw;height:37.7vw;border-bottom-left-radius:5px;border-bottom-right-radius:5px;max-width:none;transform-origin:67.45538480352192vw 7.539385292678954vw;transform:scale(undefined)" alt="Click on &quot;**Run with cache**&quot; or &quot;**Run without cache**&quot;"/><div style="position:absolute;left:65.95538480352192vw;top:6.039385292678954vw;width:3vw;height:3vw;z-index:50;border-radius:100%;border:1.5px solid #9164f7;background-color:#9164f799"><div style="width:100%;height:100%;border-radius:100%;animation:ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;background-color:#9164f799"></div></div></div></div></div></div>
+   </body>
+</html>
